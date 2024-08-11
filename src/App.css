@@ -137,3 +137,83 @@ html, body {
   .play-button:hover {
     background-color: #f46b7c;
   }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Scrollingni to'xtatish */
+}
+
+.taklifnoma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Butun balandlikni egallash */
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box {
+    max-width: 600px; /* Maksimal kenglikni cheklash */
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; /* Matnni markazlashtirish */
+}
+
+.bing {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .bing h1 {
+        font-size: 2rem; /* 24px */
+    }
+
+    .bing p {
+        font-size: 1rem; /* 16px */
+    }
+
+    .bing h3 {
+        font-size: 1.25rem; /* 20px */
+    }
+
+    .play-button {
+        font-size: 0.875rem; /* 14px */
+        padding: 8px 16px;
+    }
+
+    a {
+        display: block;
+        margin-top: 20px; /* Havola va boshqa elementlar orasidagi bo'shliq */
+        font-size: 1rem; /* 16px */
+    }
+}
+
+/* Play button styling */
+.play-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f6939b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem; /* 16px */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Play button hover effect */
+.play-button:hover {
+    background-color: #e57b9d; /* Slightly darker shade */
+    transform: scale(1.05); /* Slight zoom effect */
+}
