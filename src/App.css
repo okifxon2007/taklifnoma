@@ -69,18 +69,17 @@
     }
 
     .bing h1 {
-        font-size: 24px;
+        font-size: 2rem; /* 24px */
     }
 
     .bing p {
-        font-size: 16px;
+        font-size: 1rem; /* 16px */
     }
 
     .bing h3 {
-        font-size: 20px;
+        font-size: 1.25rem; /* 20px */
     }
 }
-
 .play-button {
     margin-top: 20px;
     padding: 10px 20px;
